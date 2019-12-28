@@ -1,0 +1,102 @@
+﻿<!--
+TRON Batocera V5.25
+THE MINI CAKE TV YouTube Channel : https://www.youtube.com/c/TheMiniCakeTV
+
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+<include>./config.xml</include>
+
+	<view name="system">
+		<sound name="directory">
+			<path>./music/</path>
+		</sound>
+	
+	</view>
+    <view name="menu">
+		<text name="systemInfo">
+            <pos>0.0 0.61</pos>
+            <backgroundColor>000000</backgroundColor>
+            <color>34eaff</color>
+            <fontPath>./art/conthrax-sb.ttf</fontPath>
+	        <fontSize>0.025</fontSize>
+      </text>
+		<menuText name="menufooter">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>34eaff</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>34eaff</color>
+			<separatorColor>ff0000</separatorColor>
+			<selectorColor>000000</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>34eaff</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.050</fontSize>
+			<color>34eaff</color>
+		</menuText>
+		<menuBackground name="menubg">
+		    <color>34eaff</color>
+			<path>./art/frame.png</path>
+			<fadePath>./art/fond_menu.jpg</fadePath>
+		</menuBackground>
+
+	</view>
+    <view name="basic, detailed">
+	<helpsystem name="help">
+      <textColor>34eaff</textColor>
+      <iconColor>ff0000</iconColor>
+	  <fontPath>./art/conthrax-sb.ttf</fontPath>
+	  <fontSize>0.025</fontSize>
+	  <pos>0.005 0.955</pos>
+    </helpsystem>
+		
+		<text name="md_description">
+			<color>34eaff</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/conthrax-sb.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+		</text>
+		
+		<rating name="md_rating">
+         <pos>0.63 0.080</pos>
+         <size>0.25 0.080</size>
+         <filledPath>./art/DB01.png</filledPath>
+         <unfilledPath>./art/DB02.png</unfilledPath>
+		 <zIndex>42</zIndex>
+      </rating>		
+	  
+        <image name="backgroundfilter" extra="true">
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <path>./art/fondgamelist.jpg</path>
+        </image>
+
+	<textlist name="gamelist">
+	    <pos>0.05 0.25</pos>
+        <size>0.20 0.42</size>
+        <selectorColor>FGFGFGFGF</selectorColor>
+        <selectedColor>ffffff</selectedColor>
+        <primaryColor>34eaff</primaryColor>
+        <secondaryColor>ff0000</secondaryColor>
+        <fontPath>../art/conthrax-sb.ttf</fontPath>
+        <fontSize>0.027</fontSize>
+        <alignment>left</alignment>
+		<lineSpacing>1.100</lineSpacing>
+		<scrollSound>./sounds/scroll.ogg</scrollSound>
+      </textlist>
+	</view>
+
+	
+</theme>
