@@ -49,8 +49,8 @@
   </view>
   <view name="basic">
  	<textlist name="gamelist">
-	    <pos>0.25 0.100</pos>
-        <size>0.22 0.42</size>
+	    <pos>0.05 0.25</pos>
+        <size>0.20 0.42</size>
         <selectorColor>FGFGFGFGF</selectorColor>
         <selectedColor>ffffff</selectedColor>
         <primaryColor>34eaff</primaryColor>
@@ -63,8 +63,22 @@
       </textlist>
   </view>
   <view name="detailed">
+  
+    <image name="md_marquee">
+			<pos>0.80 0.30</pos>
+         <maxSize>0.15 0.12</maxSize>
+         <zIndex>36</zIndex>
+      </image>
+  
+  		  <image name="md_manual">
+         <zIndex>75</zIndex>       
+         <pos>0.31 0.33</pos>
+         <size>0.05 0.085</size>
+         <path>./../art/doc_filled.png</path>
+      </image>
+  
 			<video name="md_video">
-			<pos>0.80 0.48</pos>
+			<pos>0.80 0.60</pos>
 			<maxSize>0.35 0.35</maxSize>
 			<origin>0.5 0.5</origin>
          <delay>0.0</delay>
